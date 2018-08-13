@@ -1,0 +1,13 @@
+server:
+  port: 30080
+  context-path: /api
+  session:
+    timeout: 0
+
+
+api:
+  verify:
+    path: /opt/app/jboss_test/verify/
+
+
+
